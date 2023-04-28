@@ -6,10 +6,31 @@ body {
     line-height: 19px;
     color: #626262;
 }
-
+.vraper {
+    width: 906px;
+    margin: 0 auto;
+}
 /* Шапка сайту */
+.header {
+    height: 182px;
+    padding-top: 71px;
+}
+.header_nav {
+    margin: 0 auto;
+    width: 555px;
+}
 .header_nav-list {
     list-style: none;
+}
+.header_nav-list > li{
+    display: inline-block;
+}
+/* видалення зайвих відступів між лементами inline-block */
+.header_nav-list > li:not(:first-child) {
+    margin-left: -4px;
+}
+.header_nav-list > li:not(:last-child) {
+    margin-right:100px ;
 }
 .header_nav-list > li > a  {
     color: #7D7D7D;
@@ -25,7 +46,10 @@ body {
     line-height: 16px;
     color: #B4AD9E;
 }
-
+.card {
+    display: inline-block;
+    width: 420px;
+}
 .card-tytle {
     font-weight: 400;
     font-size: 30px;
