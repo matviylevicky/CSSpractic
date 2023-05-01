@@ -52,9 +52,11 @@ body {
     margin-right: 65px;
     margin-bottom:130px ;
 }
+/* gприбрали нижній відступ в двох останіх картках */
 .card:nth-last-child(-n + 2){
     margin-bottom: 0;
 }
+/* прибрали зайві відступи в inline елементів та прибираємо правий відступ в кожної другої картинки */
 .card:nth-child(2n) {
     margin-left: -4px;
     margin-right: 0
