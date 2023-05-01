@@ -49,16 +49,39 @@ body {
 .card {
     display: inline-block;
     width: 420px;
+    margin-right: 65px;
+    margin-bottom:130px ;
+}
+.card:nth-last-child(-n + 2){
+    margin-bottom: 0;
+}
+.card:nth-child(2n) {
+    margin-left: -4px;
+    margin-right: 0
+}
+.card-img{
+    margin-bottom: 32px;
+}
+.card-categori{
+    display: block;
+    margin-bottom: 32px;
 }
 .card-tytle {
     font-weight: 400;
     font-size: 30px;
     line-height: 40px;
+    margin-bottom: 40px;
 }
 .main-button {
+    display: block;
+    margin: 90px auto 0;
+    height: 60px;
+    width: 165px;
+    background-color: white;
     font-family: 'Playfair Display';
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     color: #626262;
+
 }
